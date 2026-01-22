@@ -1,4 +1,5 @@
 # Exokernel
+![Exokernel](/src/Exokernel.png)
 
 Exokernels são uma tentativa de separar a segurança da abstração, fazendo com que partes não substituíveis do sistema operacional não façam quase nada além de multiplexar o hardware com seguraça. O objeto é evitar forçar qualquer abstração especifica sobre os aplicativos, permitindo que eles usem ou implementem quaisquer abstrações mais adequadas à sua tarefa sem ter que colocá-las sobre outras abstrações que podem impor limites ou sobrecarga desnecessária. Isso é feito movendo abstrações para bibliotecas de espaço de usuário não confiaveis chamadas "sistemas operacionais de biblioteca" (libOSes), que são vinculadas a aplicativos e chamam o sistema operacional em seu nome.
 

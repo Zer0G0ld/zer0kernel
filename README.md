@@ -1,4 +1,18 @@
+# zer0kernel
+
+Documentando tudo em [docs](/doc/)
+
+**Indice:**
+- [Conceitos Fundamentais](/doc/ConceitoFundamental.md)
+- [SMP](/doc/SMP.md)
+- [Kernel Monolítico](/doc/KernelMonolitico.md)
+- [Micro Kernel](/doc/MicroKernel.md)
+- [ExoKernel](/doc/Exokernel.md)
+
+---
+
 # Primeiros Principios para o Zer0Kernel
+
 **Princípio 1: Keep It Simple**
 "Implemente apenas o necessário para o próximo passo"
 

@@ -1,4 +1,6 @@
 # Kernel Monolítico
+![Monolithic Kernel](/src/Monolithic.png "Monolithic Kernel")
+
 Nesta arquitetura, todos os serviços principais do sistema operacional (gerenciamento de memória, sistemas de arquivos, drivers de hardware e escalonamento) funcionam dentro do **espaço do kernel**.
 - **Vantagem:** Maior desempenho, pois a comunicação entre os componentes é direta e rápida.
 - **Desvantagem:** Menor estabilidade. Se um único driver falhar, todo o sistema pode travar (como a "tela azul").
@@ -16,4 +18,3 @@ Exemplos de kernels "monolíticos puros" são raros para a arquitetura 80x86/PC(
 
 Em geral, a maioria dos sistemas operacionais não são "monolíticos puros" ou "mickrokernel puro", mas ficam em algum lugar entre esses extremos para aproveitar as vantagens de ambos os métodos.
 
-![Monolithic Kernel](/src/Monolithic.png "Monolithic Kernel")

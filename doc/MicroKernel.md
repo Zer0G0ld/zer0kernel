@@ -1,4 +1,5 @@
 # Microkernel
+![Microkernel](/src/Microkernel.png "Microkernel")
 
 Um Microkernel tenta executar a maioria dos serviços como rede, sistema de arquivos, etc. Como daemons / servidores no espaço do usuário. Tudo o que resta a fazer pelo kernel são serviços básicos, como alocação de memória física (a memória real **gerente** pode ser implementado no espaço do usuário), agendamento e mensagens (Comunicação entre Processos).
 
@@ -15,4 +16,3 @@ Também é possivel que um projeto de sistema operacional empreste conceitos de 
 Exemplos de Sistemas que são Microkernel:
 Mach, QNX, L4, AmigaOS, Minix
 
-![Microkernel](/src/Microkernel.png "Microkernel")
