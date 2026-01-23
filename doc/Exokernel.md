@@ -34,3 +34,9 @@ Embora kernel monolitico e microkernel sejam termos bastante bem definidos, os d
 
 **Nanokernel/Picokernel**
 Nanokernel e picokernel sõa geralmente pequenos kernels considerados por seus criadores como ainda menores do que microkernels. Exemplos incluem: Adeos, Chave KOS, e LSE/OS. Outro explo muito famoso é o kernel simbiano EKA2. Este nanokernel implementa drivers dentro do kernel, o que o torna não totalmente um microkernel.
+
+**Kernel de cache**
+O Kernel de cache de Stanford armazena em cache objetos do kernel, como espaços de endereço e threads, e permite que o usemode "kernels de aplicativos" os gerencie, carregando-os e descarregadno-os conforme necéssario. Os kernels de aplicativos gerenciam falhas de página, exceções, etc. e o kernel de cache permite que vários desses kernels de aplicativos coexistam em um único sistema.
+
+**Virtualizando o Kernel**
+Os kernels de virtualização geralmente são projetados para permitir que vários sistemas operacionais sjam executados em um único computador, permitindo a execução gratuita de instruções sem privilégios e capturando e simulando instruções privilegiadas, Adeos, embora se autodenomine nanokernel, é semelhandte em conceito à virtualização de kernels. Ao contrário dos exokernels, os kernels de virtualização tentam ser o mais trnasparentes possivel, para evitar exigir muitas modificações, se houver, nos sistemas operacionais hospedados.
